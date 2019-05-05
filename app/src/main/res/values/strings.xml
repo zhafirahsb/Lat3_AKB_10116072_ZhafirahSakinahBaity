@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lat3_AKB2_10116072_ZhafirahSakinahBaity</string>
+    <string name="title_activity_menu">ZHAFIRAH APPS</string>
+    <string name="title_home">Home</string>
+    <string name="title_daily">Daily Activities</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text HOME PROFILE -->
+    <string name="nama">ZHAFIRAH SAKINAH BAITY</string>
+    <string name="tgl_lahir">28 Februari 1998</string>
+    <string name="moto">\"The Power of Simplicity\"</string>
+    <string name="desc">Hai, Namaku Zhafirah.. \nAku berasal dari Medan. cita-cita ku ingin menjadi pengusaha hijab fashion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

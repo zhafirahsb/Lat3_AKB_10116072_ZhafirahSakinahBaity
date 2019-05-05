@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Person"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/telp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:text="082320667302"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/email"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/telp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:text="zhafirah.sb28@gmail.com"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/fb"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/facebook"
+        android:text="zhafirah Sakinah Baity"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/ig"
+        android:layout_below="@id/fb"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/instagram"
+        android:text="zhafirah_sakinah"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>
